@@ -1,17 +1,6 @@
 {
-    "fetched_at": "2025-02-24T01:00:30.290795+00:00",
+    "fetched_at": "2025-03-03T01:01:31.526779+00:00",
     "repositories": [
-        {
-            "name": "HW_dynamixel_servo",
-            "id": 932142210,
-            "owner": "trovatello-lab",
-            "html_url": "https://github.com/trovatello-lab/HW_dynamixel_servo",
-            "description": "Robotis Dynamixel Servo Motor ScopeFoundry Hardware Component",
-            "updated_at": "2025-02-16T18:38:32Z",
-            "readme": "ScopeFoundryHW.dynamixel_servo\n===========================\n\nScopeFoundry hardware plug-in to control robotis dynamixel servo\n\nScopeFoundry is a Python platform for controlling custom laboratory \nexperiments and visualizing scientific data\n\n<http://www.scopefoundry.org>\n\nThis software is not made by or endorsed by the device manufacturer\n\n\nAuthor\n----------\n\nEdward Barnard\nBenedikt Ursprung\n\nRequirements\n------------\n\n\t* ScopeFoundry\n\t* dynamixel_sdk\n\nInstall Dynamixel Wizard>2.0 from robotis website to look up and change the IDs of your servo motors. \n\n\t\nHistory\n--------\n\n### 0.1.0\t2025-02-13\tInitial public release.\n\nPlug-in has been used internally and has been stable.\n",
-            "default_branch": "master",
-            "parent_id": 841221090
-        },
         {
             "name": "HW_acton_spec",
             "id": 597829217,
@@ -660,6 +649,17 @@
             "readme": "README could not be retrieved.",
             "default_branch": "master",
             "parent_id": null
+        },
+        {
+            "name": "HW_dynamixel_servo",
+            "id": 932142210,
+            "owner": "trovatello-lab",
+            "html_url": "https://github.com/trovatello-lab/HW_dynamixel_servo",
+            "description": "Robotis Dynamixel Servo Motor ScopeFoundry Hardware Component",
+            "updated_at": "2025-03-02T15:22:49Z",
+            "readme": "ScopeFoundryHW.dynamixel_servo\n===========================\n\nScopeFoundry hardware plug-in to control robotis dynamixel servo\n\nScopeFoundry is a Python platform for controlling custom laboratory \nexperiments and visualizing scientific data\n\n<http://www.scopefoundry.org>\n\nThis software is not made by or endorsed by the device manufacturer\n\n\nAuthor\n----------\n\nEdward Barnard\nBenedikt Ursprung\n\nRequirements\n------------\n\n\t* ScopeFoundry\n\t* dynamixel_sdk\n\nInstall Dynamixel Wizard>2.0 from robotis website to look up and change the IDs of your servo motors. \n\n\t\nHistory\n--------\n\n### 0.1.0\t2025-02-13\tInitial public release.\n\nPlug-in has been used internally and has been stable.\n",
+            "default_branch": "master",
+            "parent_id": 841221090
         }
     ]
 }

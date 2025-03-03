@@ -5,7 +5,7 @@ description: Robotis Dynamixel Servo Motor ScopeFoundry Hardware Component
 weight: 54
 ---
 - [GitHub Repository](https://github.com/trovatello-lab/HW_dynamixel_servo)
-- Last Updated: 2025-02-16T18:38:32Z
+- Last Updated: 2025-03-02T15:22:49Z
 - Forked from [HW_dynamixel_servo (ScopeFoundry)](/docs/300_reference/hw-components/hw_dynamixel_servo-scopefoundry)
 
 #### To add to your app:
