@@ -8,13 +8,13 @@ weight: 1
 [ anaconda_env_docs ]: http://conda.pydata.org/docs/using/envs.html
 [IDE]:/docs/100_development/10_setup_eclipse/
 
-**We recommend** the [Anaconda][anaconda_dl] Python distribution, which contains many easy-to-install scientific python packages and recommend to create a separate environment. 
+**We recommend** the [miniconda][anaconda_dl] Python distribution, which contains many easy-to-install scientific python packages and recommend to create a separate environment. 
 
 If you already had a non-Anaconda version of python installed, you will need to make sure you use Anaconda in order to follow the instructions below. The use of the conda environment is optional, but provides a clean, known working environment for ScopeFoundry.
 
 ###### Windows
 
-1. Download and install [mininaconda](anaconda_dl) Python distribution 
+1. Download and install [mininaconda][anaconda_dl] python distribution
 2. Create an environment with the required dependencies. Anaconda provides a way to make a clean set of packages in an [environment][anaconda_env_docs]. To create an environment called "scopefoundry" use `anaconda(3) prompt` to run:
 	```sh
 	conda create -n scopefoundry python=3.13
