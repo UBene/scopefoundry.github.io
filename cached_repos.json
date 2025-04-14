@@ -1,5 +1,5 @@
 {
-    "fetched_at": "2025-04-07T01:04:39.454675+00:00",
+    "fetched_at": "2025-04-14T01:06:01.144385+00:00",
     "repositories": [
         {
             "name": "HW_acton_spec",
@@ -282,7 +282,7 @@
             "owner": "ScopeFoundry",
             "html_url": "https://github.com/ScopeFoundry/HW_mcl_stage",
             "description": "MadCityLabs Nanopositioner Stage ScopeFoundry Hardware component",
-            "updated_at": "2020-12-21T20:34:38Z",
+            "updated_at": "2025-04-08T22:35:02Z",
             "readme": "ScopeFoundryHW.mcl_stage\n=====================\n\nMadCityLabs Piezo USB plug-in for ScopeFoundry.\n\nThis interface uses the MadLib device driver from MadCityLabs to\ncontrol MadCityLabs stages controlled by Nano-Drive piezo controllers.\nTo use this, please contact MadCityLabs for the required software and DLL. \n\nIt has been tested with 2 and 3 axis NanoPDQ stages.\n\nScopeFoundry is a Python platform for controlling custom laboratory \nexperiments and visualizing scientific data\n\n<http://www.scopefoundry.org>\n\nThis software is not made by or endorsed by MadCityLabs, Inc.\n\n\nAuthors\n----------\n\nEdward S. Barnard <esbarnard@lbl.gov>\n\n\nRequirements\n------------\n\n\t* ScopeFoundry\n",
             "default_branch": "master",
             "parent_id": null
