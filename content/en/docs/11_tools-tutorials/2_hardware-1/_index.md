@@ -36,7 +36,7 @@ Fill out the `new hardware` tab as below and hit `create new hardware`:
 
 ![tools_new_hardware](tools_new_hardware.png)
 
-Note, that this generated the required files in your `ScopeFoundryHW` folder. You can copy the content of import statements into your `fancy_app.py` file (that you already have generated in a [prev tutorial](../1_new-microscope-app) renamed from `example_2d_slow_scan_app.py` to `fancy_app.py`). If you used the values entered above your `fancy_app.py` should look like:
+Note, that this generated the required files in your `ScopeFoundryHW` folder. You can copy the content of import statements into your `fancy_app.py` file. If you used the values entered above your `fancy_app.py` should look like:
 
 ```python
 # fancy_app.py

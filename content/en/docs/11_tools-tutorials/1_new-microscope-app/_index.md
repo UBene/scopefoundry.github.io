@@ -26,7 +26,7 @@ python -m ScopeFoundry.tools
 ![tools_new_app](tools_new_app.png)Go to the `new app` and press `new app`. This copied the scope foundry example files to your project folder. In your anaconda(3) prompt run:
 
 ```sh
-python example_slowscan_app.py
+python fancy_app.py
 ```
 
 you should see:
@@ -51,7 +51,7 @@ The folder structure should be of this form:
     ├── ScopeFoundryHW
      	├── company1_model1 
       	├── docs # optional
-	     		├── links.json 	
+      		├── links.json 	
      		├── company1_model1_hw.py					
      		├── company1_model1_dev.py			
      		├── company1_model1_test_app.py
