@@ -8,23 +8,26 @@ The following instructions publish   `company_model`  in your_project_folder's `
 
 ```
 ├── your_project_folder
-    ├── ScopeFoundryHW
-     	├── company_model
-     		├── company_model_hw.py					
-     		├── Licence
-     		├── README.md
-     		# optional
-     		├── company_model_dev.py			
-     		├── company_model_test_app.py
-     		├── .gitignore
-     		├── ** more files/directory that make your hw component work
-     		
-     **
+   ├── ScopeFoundryHW
+      ├── company_model
+         ├── company_model_hw.py					
+         ├── Licence
+         ├── README.md
+         # optional
+         ├── company_model_dev.py			
+         ├── company_model_test_app.py
+         ├── .gitignore
+         ├── docs
+            ├── links.json 
+         ├── ** more files/directory that make your hw component work
+         
+    **
 ```
 
 with a recommended `.gitignore` as we generally do not recommend to track measurement and log data:
 
 ```.gitignore
+# .gitignore
 *.pyc
 *.h5
 *log*.txt
@@ -51,7 +54,7 @@ If you like to adhere to this [template use ScopeFoundry.tools](/docs/11_tools-t
    1. sign-up/log-on on GitHub with your `USER_NAME` 
    2. New (repository) to make a public repo named `HW_{company_model}`
       ![create_repo](create_repo.png)
-      3. note the repo url for the next step![repo_created](repo_created.png)
+   3. note the repo url for the next step![repo_created](repo_created.png)
 
 
 4. Push your code to the remote repo

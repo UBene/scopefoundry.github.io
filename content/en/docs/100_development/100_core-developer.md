@@ -10,16 +10,20 @@ If you would like to have a local copy of ScopeFoundry to modify within your mic
 git clone https://github.com/ScopeFoundry/ScopeFoundry.git
 ```
 
-Then your tree should look like: 
+Then your tree should look like:
 
-	├── .git/				# Stores Git repository information
-	│   └── ...
+```
+├── your_project_folder
 	├── ScopeFoundry/			# Local Sub-tree of ScopeFoundry (overrides pip installed scopefoundry)
-	│   └── ...
+	    └── ...
 	├── ScopeFoundryHW/ 			# Local copies of ScopeFoundry hardware plugins
-	│   ├── virtual_function_gen/		# Local sub-tree of specific hardware plugin
-	│   └── ...
-	└── fancy_app.py
+	    ├── virtual_function_gen/		# Local sub-tree of specific hardware plugin
+	    └── ...
+	├── fancy_app.py
+	# optional
+	├── .git/				# Stores Git repository information of your project (not ScopeFoundry)
+	    └── ...
+```
 
 If you want to make contributions to the ScopeFoundry project:
 

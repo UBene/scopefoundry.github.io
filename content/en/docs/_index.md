@@ -2,25 +2,27 @@
 title: Documentation
 linkTitle: Documentation
 menu: {main: {weight: 20}}
-description: A Python platform for controlling custom laboratory experiments and visualizing scientific data.
 weight: 1
 ---
 
 [getting_started_docs]:/docs/1_getting-started/
 [tools_tutorials]:/docs/11_tools-tutorials/
+[tips_and_tricks]:/docs/30_tips_and_tricks/
+[built-in]:/docs/20_built-in-measurements/
+[developement]:/docs/100_development/
+[300_reference]:/docs/300_reference/
 
-**Features**
+Documentation is a work in progress, create an issue [here(https://github.com/ScopeFoundry/scopefoundry.github.io) if information is missing.
 
-* Modular, cross-platform Python graphical interface allows for fast data acquisition and visualization
-* Build lab equipment graphical interfaces interactively with Qt Creator
-* Live updates of measurement code for fast development and debugging
-* Hardware plug-ins for simple and complex scientific equipment
-
-**Uses**
-* Currently used in multi-modal scanning microscopy measurements with electrons and optics
-* Flexible for many other data acquisition tasks
-
-**Give your users next steps from the Overview**
-
+Currently, there is no complete documentation but rather 
 - [Getting Started][getting_started_docs]: Get started with ScopeFoundry
 - [Tutorial][tools_tutorials]
+- [tips and tricks][tips_and_tricks]
+- [built-in measurements][built-in]
+
+To share your plugins (hardware and measurement) as well as adding to the ScopeFoundry core check [developement][developement]
+
+Check [300_reference][300_reference] for existing hardware that you can use.
+
+
+
