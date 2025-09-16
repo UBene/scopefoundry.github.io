@@ -55,3 +55,43 @@ To add corresponding widgets to your `.ui`:
 <img src="range.png" alt="range" style="zoom: 50%;" />
 
 The `sweep_type` determines how the values are traversed.
+
+## Multi interval ranges
+
+{{% pageinfo color="info" %}}
+New in ScopeFoundry 2.2
+{{% /pageinfo %}}
+
+Define a range of X-values with up to n (bellow set to 5) intervals, each interval having a start, stop, and step setting.
+
+```python
+from ScopeFoundry.measurement import Measurement
+
+
+class XSweep(Measurement):
+
+    name = "x_sweep"
+
+    def setup(self):
+
+        self.range = self.settings.new_intervaled_range("X",
+          n_intervals=5,
+          include_center_span: bool = False,
+          include_sweep_type: bool = False,
+          initials=None,
+          unit=None,
+          si=False,
+          ro=False,
+          vmin=-1_000_000_000_000,
+          vmax=1_000_000_000_000,
+          spinbox_decimals=4,
+          description="",
+          **kwargs
+        )
+        
+    def run(self):
+        # Access the array of X-values
+        for x in self.range.sweep_array:
+            # Perform operations for each X-value
+            ...
+```
