@@ -50,11 +50,13 @@ python -m ScopeFoundry.tools
 
 Click the button on the Welcome tab to proceed.
 
-*or* with 2.1
+*or* with 2.3
 
 ```bash
-python -m ScopeFoundry ipynb
+python -m ScopeFoundry ipynb-XX (where XX is 'all', 'last' or 'remaining')
 ```
+
+where `XX` can be `last`  (default) `all`, or `remaining`.
 
 ## Result
 
