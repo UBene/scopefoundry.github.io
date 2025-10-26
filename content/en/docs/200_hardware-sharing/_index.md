@@ -85,10 +85,10 @@ This page periodically crawls GitHub for HW_* repositories. It considers users/o
 
 ## Adding Published Plug-ins to Your Project
 
-To clone an existing repo on GitHub  into to your project's hardware folder, navigate to your project folder (`cd to/your_project_folder/`) and use the following command (requires [Git](/docs/100_development-environment/20_git/)):
+To add an existing repo on GitHub  into to your project's hardware folder, navigate to your project folder (`cd to/your_project_folder/`) and use the following command (requires [Git](/docs/100_development-environment/20_git/)):
 
 ```sh
-git clone https://github.com/{THEIR_USER_NAME}/HW_{company_model}.git ScopeFoundryHW/{company_model}
+git submodule add https://github.com/{THEIR_USER_NAME}/HW_{company_model}.git ScopeFoundryHW/{company_model}
 ```
 
 Where `{THEIR_USER_NAME}` and `{company_name}` need to be replaced accordingly. **Hint:** The entries in the [Library](/docs/301_existing-hardware-components/) contain this line completed for the respective HardwareComponent. 
